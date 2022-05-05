@@ -83,7 +83,7 @@ class Parser:
         z_line = line_number + 3
         xlo, xhi, xtilt = self._lines[x_line].split()
         ylo, yhi, ytilt = self._lines[y_line].split()
-        zlo, zhi.ztilt = self._lines[z_line].split()
+        zlo, zhi, ztilt = self._lines[z_line].split()
         tilts = [float(tilt) for tilt in [xtilt, ytilt, ztilt]]
         if any(tilts) > 0:
             warnings.warn(WARNING_NON_ORTHOGONAL)
