@@ -5,7 +5,7 @@ from app.timestep import Timestep
 
 class Trajectory:
     """Collection of timesteps.
-    
+
     Args:
         timesteps: List of Timestep objects.
     """
