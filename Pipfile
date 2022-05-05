@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bokeh = "*"
+pandas = "*"
+numpy = "*"
+
+[dev-packages]
+mypy = "*"
+isort = "*"
+pytest = "*"
+black = "*"
+
+[requires]
+python_version = "3.9"
